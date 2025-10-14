@@ -1,0 +1,290 @@
+.navbar-nav {
+  gap: 40px;
+
+}
+
+.navbar .nav-link {
+  color: black !important;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.navbar .btn {
+  background-color: #0d6efd;
+  color: white;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+section.hero .btn {
+  background-color: #0d6efd;
+  color: white;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+section.hero .btn:hover {
+  border: none;
+  background: #fff;
+  color: black;
+  transform: scale(1.05);
+}
+
+.hero {
+  margin: 0;
+  background: url("../images/1.jpg") no-repeat center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.card-text span {
+  color: #e26d50;
+  font-weight: bold;
+}
+
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 60px 20px;
+
+  text-align: center;
+}
+
+/* Title */
+.why-choose-us h2 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.why-choose-us h2::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #3498db;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Row setup with gap */
+.why-choose-us .row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Individual cards */
+.why-choose-us .col-md-4 {
+  flex: 1 1 300px;
+  max-width: 350px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  border: solid 1px #ddd;
+}
+
+.why-choose-us .col-md-4:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card titles */
+.why-choose-us h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.why-choose-us p {
+  font-size: 15px;
+  color: #555;
+  margin: 0;
+}
+
+/* Testimonials Section */
+section.bg-light {
+  background: #f9f9f9;
+}
+
+section.bg-light h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2c3e50;
+  position: relative;
+}
+
+section.bg-light h2::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #0d6efd;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+.testimonial-img {
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0d6efd;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+
+section.bg-light .card {
+  border-radius: 15px;
+  background: #f9f9f9;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section.bg-light .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+section.bg-light p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+section.bg-light h6 {
+  font-weight: bold;
+  margin-top: 15px;
+  color: #0d6efd;
+}
+
+
+.footer {
+  background: #0d6efd;
+  color: #ddd;
+  padding: 40px 0 20px;
+  font-size: 14px;
+}
+
+.footer .container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-brand h4 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: black;
+}
+
+.footer-social a {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #ddd;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #0d6efd;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid white;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    gap: 20px;
+
+  }
+
+  .why-choose-us h2 {
+    font-size: 26px;
+  }
+
+  .why-choose-us .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  section.bg-light h2,
+  section.text-center h2 {
+    font-size: 26px;
+  }
+
+  section.bg-light p {
+    font-size: 15px;
+  }
+
+  section.text-center .btn {
+    font-size: 16px;
+    padding: 10px 24px;
+  }
+}

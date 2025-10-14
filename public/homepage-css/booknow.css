@@ -1,0 +1,39 @@
+
+body{
+  margin: 0;
+  background: url("../images/bok.jpeg") no-repeat center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.booking-card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+input.form-control,
+select.form-select,
+textarea.form-control {
+  background: rgba(255, 255, 255, 0.1); 
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  color: black;
+  backdrop-filter: blur(5px);
+  transition: 0.3s ease;
+}
+
+input.form-control:focus,
+select.form-select:focus,
+textarea.form-control:focus {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #0d6efd;
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: black;
+}

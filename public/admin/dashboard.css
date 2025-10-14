@@ -1,0 +1,91 @@
+/* Reset & Layout */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    min-width: 300px;
+    max-width: 300px;
+    background: #191C24;
+    color: #fff;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar .nav-link {
+    margin-top: 8px;
+    border-radius: 8px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #198754;
+}
+
+.sidebar .nav-link.active {
+    background: black;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    color: #fff;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+    color: #fff !important;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    background: #191C24;
+    color: #fff;
+}
+
+.card-header {
+    background: #191C24;
+    color: #fff;
+}
+
+/* Tables */
+.table thead {
+    background: #212529;
+    color: #fff;
+}
+
+/* Notification & Badges */
+.navbar .nav-link i {
+    transition: transform 0.2s;
+}
+
+.navbar .nav-link:hover i {
+    transform: scale(1.2);
+}
+
+/* Profile image */
+.navbar img {
+    border: 2px solid #198754;
+}
